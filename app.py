@@ -7,8 +7,8 @@ from oauth2client.service_account import ServiceAccountCredentials
 app = Flask(__name__)
 
 # Token do WhatsApp API e número de telefone do bot
-TOKEN = "SEU_TOKEN_DO_META"
-PHONE_NUMBER_ID = "SEU_PHONE_NUMBER_ID"
+TOKEN = "EAAQ99dkcx3YBO6bztQJcuNg84zcU7ShDe75ahZA4JUkfXZBKzpGIVgEiPuhm0s7SKqSRCDZBXWag7UqrE86sw6u2rIt5nh1YEGEzZCXhOl83ZCPzZBvGUza8xHKiAiznp871WdAVTPmljiAPLrUzGhhgTBAJZCj4PoLzo37mZAoIn1btzWhSVpNyCdkthEAHpBLZAQjQvXbIUZBy7MgEWrkfZCHWc30LZAMgNQUsXysZD"
+PHONE_NUMBER_ID = "628611040326771"
 
 # Função para enviar mensagem no WhatsApp
 def enviar_mensagem(numero, mensagem):
